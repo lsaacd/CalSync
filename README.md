@@ -25,53 +25,34 @@ Adding university course schedules and exam dates to your phone is usually painf
 
 ---
 
-## 🚀 Live Calendar Subscription (No App Needed)
+## 🚀 Live Calendar Subscriptions (Individual Class Feeds)
 
-Subscribe directly on your phone to get live schedules that automatically update.
+You can subscribe to **individual classes, labs, and exams independently** on your iPhone, Mac, or Google Calendar so your schedule only includes the exact classes you want.
 
-### 📱 On iPhone / iPad / Mac (Apple Calendar)
-1. Copy the live feed URL:
-   ```text
-   webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics
-   ```
-2. Open **Safari** and paste the link (or go to **Settings $\rightarrow$ Calendar $\rightarrow$ Accounts $\rightarrow$ Add Account $\rightarrow$ Other $\rightarrow$ Add Subscribed Calendar**).
-3. Set **Auto-Refresh** to **Every Hour** (or Daily) and tap **Add**.
+### 📱 How to Subscribe on iPhone / iPad / Mac:
+1. Tap or copy any of the **`webcal://`** links in the table below.
+2. In **Safari**, tap **Subscribe** $\rightarrow$ set **Auto-Refresh** to **Every Hour** (or Daily).
+3. The individual class will now appear on your calendar and auto-update whenever changes occur!
 
-### 💻 On Google Calendar (Web)
-1. Open [calendar.google.com](https://calendar.google.com).
-2. On the left sidebar next to **Other calendars**, click **`+` $\rightarrow$ From URL**.
-3. Paste:
-   ```text
-   https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics
-   ```
-4. Click **Add calendar**.
+### 💻 How to Subscribe on Google Calendar (Web):
+1. Copy the **Google Calendar Feed URL** for any course below.
+2. Go to [Google Calendar](https://calendar.google.com) $\rightarrow$ next to **Other calendars**, click **`+` $\rightarrow$ From URL** $\rightarrow$ paste link and click **Add calendar**.
 
 ---
 
-## ✨ Key Features
+### 📋 Fall 2026 Individual Live Feeds
 
-| Feature | What It Does | Why It Matters |
-| :--- | :--- | :--- |
-| 🔔 **Multi-Tier Exam Alarms** | Alerts at **1 Day before**, **2 Hours before**, and **30 Mins before** for all exams. | Never get caught off guard on exam morning. |
-| 🤖 **Smart Schedule Parser** | Extracts courses, CRNs, instructors, and rooms from raw portal text. | Turn messy portal registrations into clean `.ics` files instantly. |
-| 🌐 **Timezone & DST Safe** | Full `America/Los_Angeles` `VTIMEZONE` embedding. | Times never shift by 1 hour when Daylight Saving Time ends in November. |
-| 🛑 **Recurrence Boundaries** | Regular weekly lectures automatically cut off on the last day of instruction. | Eliminates "phantom" class reminders during Finals Week. |
-| ✉️ **One-Tap Apple Mail Invites** | Sends `.ics` attachments formatted with `text/calendar; method=PUBLISH`. | Renders native *"Add All"* action sheets inside iOS Mail. |
-
----
-
-## 📋 Active Timetable: Fall 2026 Semester (Default Example)
-
-| Course | Component | Days & Times | Location | Instructors / CRN |
+| Course & Type | Day & Time | Location | 📱 Apple Calendar (`webcal://`) | 💻 Google Calendar Feed |
 | :--- | :--- | :--- | :--- | :--- |
-| **WRI 100-02** | Lecture | **Tue & Thu** 9:30 AM – 11:20 AM | Granite Pass 120 | Catherine Koehler / Samantha Almeida (`31623`) |
-| **CSE 100-01** | Lecture | **Tue & Thu** 9:00 PM – 10:15 PM | COB 1 Bldg 105 | Miguel Carreira-Perpiñán (`30378`) |
-| **CSE 100-04L** | Lab | **Wednesday** 10:30 AM – 1:20 PM | S&E 1 Bldg 100 | Rasul Kairgeldin (`30859`) |
-| **CSE 100-01** | **FINAL EXAM** | **Fri, Dec 18, 2026** 11:30 AM – 2:30 PM | COB 1 Bldg 102 | Miguel Carreira-Perpiñán (`30378`) |
-| **CSE 108-01** | Lecture | **Thursday** 4:00 PM – 6:20 PM | Remote Instruction | Ammon Hepworth / Weimin Qiu (`31032`) |
-| **CSE 108-05L** | Lab | **Tuesday** 4:30 PM – 7:20 PM | S&E 1 Bldg 100 | Weimin Qiu (`31294`) |
-| **CSE 108-01** | **MIDTERM** | **Thu, Nov 19, 2026** 5:00 PM – 6:20 PM | COB 2 Bldg 110 | Ammon Hepworth / Weimin Qiu (`31032`) |
-| **CSE 108-01** | **FINAL EXAM** | **Mon, Dec 14, 2026** 6:30 PM – 9:30 PM | Remote Instruction | Ammon Hepworth / Weimin Qiu (`31032`) |
+| **WRI 100-02**<br>*(Lecture)* | Tue & Thu<br>9:30 AM – 11:20 AM | Granite Pass 120 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics) |
+| **CSE 100-01**<br>*(Lecture)* | Tue & Thu<br>9:00 PM – 10:15 PM | COB 1 Bldg 105 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics) |
+| **CSE 100-04L**<br>*(Lab)* | Wednesday<br>10:30 AM – 1:20 PM | S&E 1 Bldg 100 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics) |
+| **CSE 100-01**<br>*(Final Exam)* | Fri, Dec 18, 2026<br>11:30 AM – 2:30 PM | COB 1 Bldg 102 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics) |
+| **CSE 108-01**<br>*(Lecture)* | Thursday<br>4:00 PM – 6:20 PM | Remote Instruction | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics) |
+| **CSE 108-05L**<br>*(Lab)* | Tuesday<br>4:30 PM – 7:20 PM | S&E 1 Bldg 100 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics) |
+| **CSE 108-01**<br>*(Midterm)* | Thu, Nov 19, 2026<br>5:00 PM – 6:20 PM | COB 2 Bldg 110 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics) |
+| **CSE 108-01**<br>*(Final Exam)* | Mon, Dec 14, 2026<br>6:30 PM – 9:30 PM | Remote Instruction | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics) |
+| **⭐ All Classes & Exams**<br>*(Full Bundle)* | Full Semester | All Locations | [`Subscribe All`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics) | [`All Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics) |
 
 ---
 
