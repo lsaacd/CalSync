@@ -75,9 +75,36 @@ Subscribe directly on your phone to get live schedules that automatically update
 
 ---
 
+## 🤖 Creating Your Own Class Schedule (Using an AI IDE)
+
+Want to set up your own university classes, labs, and exams? You don't need to build `.ics` files manually!
+
+This repository includes a comprehensive **[`AGENTS.md`](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/AGENTS.md)** rulebook that guides AI coding assistants and IDEs (such as **Google Antigravity**, **Cursor**, **Windsurf**, or **Claude Code**) to act as your autonomous calendar scheduling agent.
+
+### Step-by-Step:
+1. **Fork or Clone this Repository**:
+   ```bash
+   git clone https://github.com/lsaacd/CalSync.git
+   ```
+2. **Open the Folder in Your AI IDE** (e.g., Antigravity, Cursor, or Windsurf).
+3. **Paste Your Class Schedule Text into the AI Chat**:
+   Copy the raw text from your university registration portal (Ellucian Banner, Canvas, Workday, etc.) and ask:
+   > *"Here is my class schedule for next semester. Create individual .ics files and a combined live feed following the AGENTS.md standard."*
+4. **The AI Assistant will automatically**:
+   * 📖 Read `AGENTS.md` to ensure strict RFC 5545 compliance and timezone definitions.
+   * 🗂️ Generate individual, color-coded `.ics` files for every lecture, lab, and discussion.
+   * ⏰ Attach **3-tier countdown alarms** to midterms and final exams (1 day, 2 hours, 30 mins).
+   * 🛑 Set weekly recurrence cutoffs to the last day of regular class instruction (preventing phantom meetings during finals week).
+   * 📁 Structure your files into organized course folders and compile an updated schedule dashboard.
+5. **(Optional) One-Tap Email Dispatch**:
+   Add your Gmail App Password to `.env` and prompt:
+   > *"Email these calendar invites to my iPhone."*
+
+---
+
 ## 🛠️ CLI & Developer Tools
 
-CalSync is written in standard Python 3.10+ with **zero third-party dependencies**.
+CalSync also includes standalone Python tools written with **zero third-party dependencies**.
 
 ### 1. Quick Setup
 ```bash
