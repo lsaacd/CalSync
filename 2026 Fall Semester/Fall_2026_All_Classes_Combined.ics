@@ -1,0 +1,334 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ICS Calendar Agent//UC Merced Fall 2026 Bundle//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UC Merced Fall 2026 Semester
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+
+TZID:America/Los_Angeles
+
+X-LIC-LOCATION:America/Los_Angeles
+
+BEGIN:DAYLIGHT
+
+TZOFFSETFROM:-0800
+
+TZOFFSETTO:-0700
+
+TZNAME:PDT
+
+DTSTART:19700308T020000
+
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+
+END:DAYLIGHT
+
+BEGIN:STANDARD
+
+TZOFFSETFROM:-0700
+
+TZOFFSETTO:-0800
+
+TZNAME:PST
+
+DTSTART:19701101T020000
+
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+
+END:STANDARD
+
+END:VTIMEZONE
+BEGIN:VEVENT
+
+UID:75ec430cb4f849@ucmerced.edu
+
+DTSTAMP:20260818T181215Z
+
+DTSTART;TZID=America/Los_Angeles:20261218T113000
+
+DTEND;TZID=America/Los_Angeles:20261218T143000
+
+SUMMARY:CSE 100-01: Algorithm Design and Analysis (FINAL EXAM)
+
+DESCRIPTION:Course: CSE 100 Section 01\nType: Final Exam\nCRN: 30378\nInstructor: Miguel Carreira-Perpiñán (mcarreira-perpinan@ucmerced.edu)\nTime: Friday\, Dec 18\, 2026\, 11:30 AM - 2:30 PM
+
+LOCATION:Classroom and Office 1 Bldg 102\, Main Campus\, UC Merced
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 100-01: Algorithm Design and Analysis (FINAL EXAM)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:608b38b28ac94c@ucmerced.edu
+
+DTSTAMP:20260818T181214Z
+
+DTSTART;TZID=America/Los_Angeles:20260827T210000
+
+DTEND;TZID=America/Los_Angeles:20260827T221500
+
+RRULE:FREQ=WEEKLY;UNTIL=20261212T075959Z;BYDAY=TU,TH
+
+SUMMARY:CSE 100-01: Algorithm Design and Analysis (Lecture)
+
+DESCRIPTION:Course: CSE 100 Section 01\nType: Lecture\nCRN: 30378\nInstructor: Miguel Carreira-Perpiñán (mcarreira-perpinan@ucmerced.edu)\nSchedule: Tue & Thu 9:00 PM - 10:15 PM\nTerm: Fall 2026 (08/26/2026 - 12/11/2026)
+
+LOCATION:Classroom and Office 1 Bldg 105\, Main Campus\, UC Merced
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 100-01: Algorithm Design and Analysis (Lecture)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:690ccbf2cab24c@ucmerced.edu
+
+DTSTAMP:20260818T181217Z
+
+DTSTART;TZID=America/Los_Angeles:20260826T103000
+
+DTEND;TZID=America/Los_Angeles:20260826T132000
+
+RRULE:FREQ=WEEKLY;UNTIL=20261212T075959Z;BYDAY=WE
+
+SUMMARY:CSE 100-04L: Algorithm Design and Analysis (Lab)
+
+DESCRIPTION:Course: CSE 100 Section 04L\nType: Lab\nCRN: 30859\nInstructor: Rasul Kairgeldin (rkairgeldin@ucmerced.edu)\nSchedule: Wednesday 10:30 AM - 1:20 PM\nTerm: Fall 2026 (08/26/2026 - 12/11/2026)
+
+LOCATION:Science and Engineering 1 Bldg 100\, Main Campus\, UC Merced
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 100-04L: Algorithm Design and Analysis (Lab)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:7dd9ab7a5dec40@ucmerced.edu
+
+DTSTAMP:20260818T181220Z
+
+DTSTART;TZID=America/Los_Angeles:20261214T183000
+
+DTEND;TZID=America/Los_Angeles:20261214T213000
+
+SUMMARY:CSE 108-01: Full Stack Web Development (FINAL EXAM)
+
+DESCRIPTION:Course: CSE 108 Section 01\nType: Final Exam\nCRN: 31032\nInstructors: Ammon Hepworth\, Weimin Qiu\nTime: Monday\, Dec 14\, 2026\, 6:30 PM - 9:30 PM\nLocation: Remote Instruction
+
+LOCATION:Remote Instruction Room ONLY
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 108-01: Full Stack Web Development (FINAL EXAM)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:b235589c105248@ucmerced.edu
+
+DTSTAMP:20260818T181218Z
+
+DTSTART;TZID=America/Los_Angeles:20260827T160000
+
+DTEND;TZID=America/Los_Angeles:20260827T182000
+
+RRULE:FREQ=WEEKLY;UNTIL=20261113T075959Z;BYDAY=TH
+
+SUMMARY:CSE 108-01: Full Stack Web Development (Lecture)
+
+DESCRIPTION:Course: CSE 108 Section 01\nType: Lecture (Part 1)\nCRN: 31032\nInstructors: Ammon Hepworth (ahepworth@ucmerced.edu)\, Weimin Qiu (wqiu5@ucmerced.edu)\nSchedule: Thursday 4:00 PM - 6:20 PM\nLocation: Remote Instruction
+
+LOCATION:Remote Instruction Room ONLY
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 108-01: Full Stack Web Development (Lecture)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:7cd3a07f8a3249@ucmerced.edu
+
+DTSTAMP:20260818T181218Z
+
+DTSTART;TZID=America/Los_Angeles:20261126T160000
+
+DTEND;TZID=America/Los_Angeles:20261126T182000
+
+RRULE:FREQ=WEEKLY;UNTIL=20261212T075959Z;BYDAY=TH
+
+SUMMARY:CSE 108-01: Full Stack Web Development (Lecture)
+
+DESCRIPTION:Course: CSE 108 Section 01\nType: Lecture (Part 2)\nCRN: 31032\nInstructors: Ammon Hepworth (ahepworth@ucmerced.edu)\, Weimin Qiu (wqiu5@ucmerced.edu)\nSchedule: Thursday 4:00 PM - 6:20 PM\nLocation: Remote Instruction
+
+LOCATION:Remote Instruction Room ONLY
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 108-01: Full Stack Web Development (Lecture)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:0c6da9226dae41@ucmerced.edu
+
+DTSTAMP:20260818T181219Z
+
+DTSTART;TZID=America/Los_Angeles:20261119T170000
+
+DTEND;TZID=America/Los_Angeles:20261119T182000
+
+SUMMARY:CSE 108-01: Full Stack Web Development (MIDTERM EXAM)
+
+DESCRIPTION:Course: CSE 108 Section 01\nType: Midterm Exam (In-Person)\nCRN: 31032\nInstructors: Ammon Hepworth\, Weimin Qiu\nTime: Thursday\, Nov 19\, 2026\, 5:00 PM - 6:20 PM\nLocation: Classroom and Office 2 Bldg 110
+
+LOCATION:Classroom and Office 2 Bldg 110\, Main Campus\, UC Merced
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 108-01: Full Stack Web Development (MIDTERM EXAM)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:0f562e1b89394d@ucmerced.edu
+
+DTSTAMP:20260818T181222Z
+
+DTSTART;TZID=America/Los_Angeles:20260901T163000
+
+DTEND;TZID=America/Los_Angeles:20260901T192000
+
+RRULE:FREQ=WEEKLY;UNTIL=20261212T075959Z;BYDAY=TU
+
+SUMMARY:CSE 108-05L: Full Stack Web Development (Lab)
+
+DESCRIPTION:Course: CSE 108 Section 05L\nType: Lab\nCRN: 31294\nInstructor: Weimin Qiu (wqiu5@ucmerced.edu)\nSchedule: Tuesday 4:30 PM - 7:20 PM\nTerm: Fall 2026 (08/26/2026 - 12/11/2026)
+
+LOCATION:Science and Engineering 1 Bldg 100\, Main Campus\, UC Merced
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: CSE 108-05L: Full Stack Web Development (Lab)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+BEGIN:VEVENT
+
+UID:df0c3b86955c48@ucmerced.edu
+
+DTSTAMP:20260818T181213Z
+
+DTSTART;TZID=America/Los_Angeles:20260827T093000
+
+DTEND;TZID=America/Los_Angeles:20260827T112000
+
+RRULE:FREQ=WEEKLY;UNTIL=20261212T075959Z;BYDAY=TU,TH
+
+SUMMARY:WRI 100-02: Advanced Writing (Lecture)
+
+DESCRIPTION:Course: Writing 100 Section 02\nType: Lecture (4 Credits)\nCRN: 31623\nInstructors: Catherine Koehler (ckoehler@ucmerced.edu)\, Samantha Almeida (stucker5@ucmerced.edu)\nSchedule: Tue & Thu 9:30 AM - 11:20 AM\nTerm: Fall 2026 (08/26/2026 - 12/11/2026)
+
+LOCATION:Granite Pass 120\, Main Campus\, UC Merced
+
+STATUS:CONFIRMED
+
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder: WRI 100-02: Advanced Writing (Lecture)
+
+TRIGGER:-PT20M
+
+END:VALARM
+
+END:VEVENT
+END:VCALENDAR
