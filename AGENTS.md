@@ -83,16 +83,21 @@ END:VCALENDAR
   * Regular lectures, labs, and discussions must use `RRULE:FREQ=WEEKLY;BYDAY=...;UNTIL=<end-of-instruction-UTC>` where `UNTIL` terminates on the **last day of regular class instruction** (e.g., Dec 11, 2026), **not** the end of final exam week.
   * **Final exams** must be scheduled as separate, standalone one-off events on their designated exam dates/times.
   * **Rationale**: Extending the regular lecture `UNTIL` date through finals week causes false "phantom" class meetings to show up during finals week when no classes are being held.
-* **Daylight Saving Time (DST) Transitions (`VTIMEZONE`)**:
-  * Fall and Spring semesters cross DST changes (e.g., Pacific PDT to PST in November).
-  * Always embed the explicit `BEGIN:VTIMEZONE` / `END:VTIMEZONE` block with `DAYLIGHT` and `STANDARD` yearly definitions for `America/Los_Angeles` so event start times remain exact regardless of device timezone settings.
+* **Multi-Tier Alarms for Exams**:
+  * Regular classes and labs should include a standard 20-minute notification (`TRIGGER:-PT20M`).
+  * Midterms and Final Exams must include a **3-tier alert hierarchy**:
+    1. `TRIGGER:-P1D` (1 Day before — preparation alert)
+    2. `TRIGGER:-PT2H` (2 Hours before — commute & packing alert)
+    3. `TRIGGER:-PT30M` (30 Minutes before — arrival alert)
+  * Set `CATEGORIES:Exams,Academics` and `PRIORITY:1` on all exam events.
 
 ---
 
 ## 3. Automation Architecture & Scripts
 
 ### Current Components:
-* **[send_ics.py](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/send_ics.py)**: Python SMTP sender supporting Gmail App Passwords and proper calendar MIME payload construction.
+* **[send_ics.py](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/send_ics.py)**: Python SMTP sender supporting Gmail App Passwords, single/batch directory dispatching, and calendar MIME construction.
+* **[parse_schedule.py](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/parse_schedule.py)**: Intelligent registration portal and syllabus text parser that generates compliant `.ics` files and directory trees automatically.
 
 ### Configuration / Environment Variables:
 The sender script can read credentials from environment variables to run in headless/agent mode:
@@ -111,9 +116,10 @@ When the user asks to create or schedule a calendar event:
    - Extract Title (`SUMMARY`), Date & Time (Start, End, Timezone), Recurrence (`RRULE`), Location, Instructors/CRN (`DESCRIPTION`), and Alarms (`VALARM`).
 2. **Generate Individual Compliant ICS Files**:
    - Format each component as its own independent RFC 5545 `.ics` file.
+   - Attach multi-tier alarms to all exams and 20-minute alarms to classes.
    - Write each `.ics` file to the workspace with descriptive filenames.
 3. **Dispatch / Delivery**:
-   - Run `send_ics.py <filename>.ics` for each file to deliver them directly to the user's inbox with matching subject lines.
+   - Run `send_ics.py <filename>.ics` (or folder) to deliver invites directly to the user's inbox.
 4. **Verification**:
    - Provide a clear breakdown of each generated file and confirmation of dispatch.
 
