@@ -25,9 +25,13 @@ Adding university course schedules and exam dates to your phone is usually painf
 
 ---
 
-## 🚀 Live Calendar Subscriptions (Individual Class Feeds)
+## 📋 Live Example Feeds: Fall 2026 Semester (Demo)
 
-You can subscribe to **individual classes, labs, and exams independently** on your iPhone, Mac, or Google Calendar so your schedule only includes the exact classes you want.
+> [!NOTE]
+> **Example Schedule:** The links in this section are live demonstration feeds for a sample UC Merced Fall 2026 computer science & writing schedule.  
+> 👉 **To generate live feeds for YOUR OWN university classes**, jump to [Creating Your Own Class Schedule with an AI IDE](#-creating-your-own-class-schedule-using-an-ai-ide) below!
+
+You can test how live subscriptions work by tapping any link below on your iPhone, Mac, or Google Calendar:
 
 ### 📱 How to Subscribe on iPhone / iPad / Mac:
 1. Tap or copy any of the **`webcal://`** links in the table below.
@@ -40,7 +44,7 @@ You can subscribe to **individual classes, labs, and exams independently** on yo
 
 ---
 
-### 📋 Fall 2026 Individual Live Feeds
+### 📅 Fall 2026 Demo Feeds
 
 | Course & Type | Day & Time | Location | 📱 Apple Calendar (`webcal://`) | 💻 Google Calendar Feed |
 | :--- | :--- | :--- | :--- | :--- |
@@ -82,6 +86,11 @@ This repository includes **[`AGENTS.md`](file:///c:/Users/isaac/Desktop/[02]%20W
    * **Import to iPhone**: If you're importing via iPhone, watch this helpful walkthrough:  
      📺 **[How to Import .ics Calendar Files to iPhone Calendar (YouTube Guide)](https://www.youtube.com/watch?v=xEaamiZDWuo)**
    * **Email Delivery**: Add your Gmail App Password to `.env` and tell the agent: *"Email these calendar invites to my iPhone."*
+6. **(Optional) Host Your Own Live `webcal://` Feeds**:
+   Push your generated files to your own GitHub repository and enable **GitHub Pages** in Repository Settings. You and your classmates can now subscribe to your custom live feed at:
+   ```text
+   webcal://<YOUR-USERNAME>.github.io/<YOUR-REPO>/<YOUR-SEMESTER-FOLDER>/...
+   ```
 
 ---
 
