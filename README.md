@@ -46,12 +46,6 @@ Subscribe directly on your phone to get live schedules that automatically update
    ```
 4. Click **Add calendar**.
 
-### 📥 Manual Import (Download ZIP & Drag to iCalendar / Apple Calendar)
-If you prefer to download the repository and import files directly:
-1. Click **Code $\rightarrow$ Download ZIP** on GitHub and extract the folder.
-2. Drag and drop any individual `.ics` file (or `Fall_2026_All_Classes_Combined.ics`) directly into your Apple Calendar or Google Calendar app.
-3. 📺 **Watch Video Walkthrough**: [How to Import .ics Calendar Files to iPhone Calendar (YouTube Guide)](https://www.youtube.com/watch?v=xEaamiZDWuo)
-
 ---
 
 ## ✨ Key Features
@@ -66,7 +60,7 @@ If you prefer to download the repository and import files directly:
 
 ---
 
-## 📋 Active Timetable: Fall 2026 Semester
+## 📋 Active Timetable: Fall 2026 Semester (Default Example)
 
 | Course | Component | Days & Times | Location | Instructors / CRN |
 | :--- | :--- | :--- | :--- | :--- |
@@ -83,28 +77,30 @@ If you prefer to download the repository and import files directly:
 
 ## 🤖 Creating Your Own Class Schedule (Using an AI IDE)
 
-Want to set up your own university classes, labs, and exams? You don't need to build `.ics` files manually!
+Want to create calendar files for your **own university courses, labs, and exams**? You don't need to write `.ics` code manually!
 
-This repository includes a comprehensive **[`AGENTS.md`](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/AGENTS.md)** rulebook that guides AI coding assistants and IDEs (such as **Google Antigravity**, **Cursor**, **Windsurf**, or **Claude Code**) to act as your autonomous calendar scheduling agent.
+This repository includes **[`AGENTS.md`](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/AGENTS.md)**, which instructs AI coding assistants (such as **Google Antigravity**, **Cursor**, **Windsurf**, or **Claude Code**) to act as your autonomous calendar agent.
 
-### Step-by-Step:
+### How It Works:
 1. **Fork or Clone this Repository**:
    ```bash
    git clone https://github.com/lsaacd/CalSync.git
    ```
-2. **Open the Folder in Your AI IDE** (e.g., Antigravity, Cursor, or Windsurf).
-3. **Paste Your Class Schedule Text into the AI Chat**:
-   Copy the raw text from your university registration portal (Ellucian Banner, Canvas, Workday, etc.) and ask:
-   > *"Here is my class schedule for next semester. Create individual .ics files and a combined live feed following the AGENTS.md standard."*
-4. **The AI Assistant will automatically**:
-   * 📖 Read `AGENTS.md` to ensure strict RFC 5545 compliance and timezone definitions.
-   * 🗂️ Generate individual, color-coded `.ics` files for every lecture, lab, and discussion.
-   * ⏰ Attach **3-tier countdown alarms** to midterms and final exams (1 day, 2 hours, 30 mins).
+2. **Open the Folder in Your AI IDE** (e.g., Google Antigravity, Cursor, or Windsurf).
+3. **Paste Your Own Class Schedule Text into the AI Chat**:
+   Copy the raw text from your university student portal (Ellucian Banner, Canvas, Workday, etc.) and prompt the AI:
+   > *"Here is my class schedule for next semester. Generate individual .ics files and a combined live feed for my classes following the AGENTS.md standard."*
+4. **The AI Agent will automatically**:
+   * 📖 Read `AGENTS.md` to ensure strict RFC 5545 compliance and timezone settings.
+   * 🗂️ Generate individual, titled `.ics` files for every lecture, lab, and discussion.
+   * ⏰ Attach **3-tier countdown alarms** (1 day, 2 hours, 30 mins) to all midterms & final exams.
    * 🛑 Set weekly recurrence cutoffs to the last day of regular class instruction (preventing phantom meetings during finals week).
    * 📁 Structure your files into organized course folders and compile an updated schedule dashboard.
-5. **(Optional) One-Tap Email Dispatch**:
-   Add your Gmail App Password to `.env` and prompt:
-   > *"Email these calendar invites to my iPhone."*
+5. **Get Your Calendar Files & Import**:
+   * **Drag & Drop to iCalendar**: Once the agent finishes, you can simply take your generated `.ics` files (or zip your new semester folder) and drag them directly into Apple Calendar on Mac or Google Calendar web.
+   * **Import to iPhone**: If you're importing via iPhone, watch this helpful walkthrough:  
+     📺 **[How to Import .ics Calendar Files to iPhone Calendar (YouTube Guide)](https://www.youtube.com/watch?v=xEaamiZDWuo)**
+   * **Email Delivery**: Add your Gmail App Password to `.env` and tell the agent: *"Email these calendar invites to my iPhone."*
 
 ---
 
