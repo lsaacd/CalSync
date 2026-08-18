@@ -11,7 +11,7 @@ You can subscribe directly to live-updating schedules without downloading files 
 ### On iPhone / iPad / Mac (Apple Calendar):
 1. Copy the `webcal://` feed link:
    ```text
-   webcal://<your-username>.github.io/<repo-name>/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics
+   webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics
    ```
 2. Open Safari on iPhone and paste the URL, or go to **Settings $\rightarrow$ Calendar $\rightarrow$ Accounts $\rightarrow$ Add Account $\rightarrow$ Other $\rightarrow$ Add Subscribed Calendar**.
 3. Set **Auto-Refresh** to **Every Hour**.
@@ -20,7 +20,10 @@ You can subscribe directly to live-updating schedules without downloading files 
 ### On Google Calendar (Web):
 1. Go to [Google Calendar](https://calendar.google.com).
 2. Next to **Other calendars**, click **+ $\rightarrow$ From URL**.
-3. Paste the `https://` raw URL to the `.ics` file.
+3. Paste:
+   ```text
+   https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics
+   ```
 
 ---
 
