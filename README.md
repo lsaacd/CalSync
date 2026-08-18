@@ -46,6 +46,12 @@ Subscribe directly on your phone to get live schedules that automatically update
    ```
 4. Click **Add calendar**.
 
+### 📥 Manual Import (Download ZIP & Drag to iCalendar / Apple Calendar)
+If you prefer to download the repository and import files directly:
+1. Click **Code $\rightarrow$ Download ZIP** on GitHub and extract the folder.
+2. Drag and drop any individual `.ics` file (or `Fall_2026_All_Classes_Combined.ics`) directly into your Apple Calendar or Google Calendar app.
+3. 📺 **Watch Video Walkthrough**: [How to Import .ics Calendar Files to iPhone Calendar (YouTube Guide)](https://www.youtube.com/watch?v=xEaamiZDWuo)
+
 ---
 
 ## ✨ Key Features
