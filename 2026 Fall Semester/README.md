@@ -76,5 +76,5 @@ Time (PT)        │ Monday          │ Tuesday                  │ Wednesday 
    - Open the individual notification emails in your **Apple Mail** app.
    - Tap the `.ics` attachment preview and tap **Add to Calendar**.
 2. **Google Calendar / Web iCalendar**:
-   - Go to [Google Calendar Settings](https://calendar.google.com/calendar/r/settings/export) $\rightarrow$ **Import & export**.
+   - Go to [Google Calendar Settings](https://calendar.google.com/calendar/r/settings/export) → **Import & export**.
    - Select any `.ics` file from the course folders above and choose your destination calendar.

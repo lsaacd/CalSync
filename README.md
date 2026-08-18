@@ -42,7 +42,7 @@ You can test how live subscriptions work by tapping any link below on your iPhon
 
 ### 💻 How to Subscribe on Google Calendar (Web):
 1. Copy the **Feed URL** for any course below.
-2. Go to [Google Calendar](https://calendar.google.com) $\rightarrow$ next to **Other calendars**, click **`+` $\rightarrow$ From URL** $\rightarrow$ paste link and click **Add calendar**.
+2. Go to [Google Calendar](https://calendar.google.com) → next to **Other calendars**, click **`+` → From URL** → paste link and click **Add calendar**.
 
 ---
 
