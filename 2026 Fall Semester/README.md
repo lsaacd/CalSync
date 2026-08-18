@@ -26,8 +26,7 @@ Time (PT)        │ Monday          │ Tuesday                  │ Wednesday 
 * **Schedule**: Tuesday & Thursday | 9:30 AM – 11:20 AM
 * **Location**: Main Campus, Granite Pass Room 120
 * **Instruction Term**: August 26, 2026 – December 11, 2026
-* **📱 Apple Calendar (`webcal://`)**: [`Subscribe to WRI 100`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics)
-* **Calendar File**: [`WRI 100 - Advanced Writing/WRI_100_02_Lecture.ics`](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics)
+* **📱 Apple / Google Calendar**: [`Subscribe to WRI 100`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics)
 
 ---
 
@@ -38,12 +37,12 @@ Time (PT)        │ Monday          │ Tuesday                  │ Wednesday 
   * Lab: Rasul Kairgeldin (`rkairgeldin@ucmerced.edu` - Primary)
 * **Meetings**:
   * **Lecture**: Tuesday & Thursday | 9:00 PM – 10:15 PM | Classroom and Office 1 Bldg Room 105  
-    📱 [`Subscribe to CSE 100 Lecture (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics)
+    📱 [`Subscribe to CSE 100 Lecture`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics)
   * **Lab (04L)**: Wednesday | 10:30 AM – 1:20 PM | Science and Engineering 1 Bldg Room 100  
-    📱 [`Subscribe to CSE 100 Lab (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics)
+    📱 [`Subscribe to CSE 100 Lab`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics)
 * **Final Exam**:
   * **Date & Time**: Friday, December 18, 2026 | 11:30 AM – 2:30 PM | COB 1 Room 102  
-    📱 [`Subscribe to CSE 100 Final Exam (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics)
+    📱 [`Subscribe to CSE 100 Final Exam`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics)
 
 ---
 
@@ -54,14 +53,14 @@ Time (PT)        │ Monday          │ Tuesday                  │ Wednesday 
   * Lab: Weimin Qiu (`wqiu5@ucmerced.edu` - Primary)
 * **Meetings**:
   * **Lecture**: Thursday | 4:00 PM – 6:20 PM | Remote Instruction  
-    📱 [`Subscribe to CSE 108 Lecture (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics)
+    📱 [`Subscribe to CSE 108 Lecture`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics)
   * **Lab (05L)**: Tuesday | 4:30 PM – 7:20 PM | Science and Engineering 1 Bldg Room 100  
-    📱 [`Subscribe to CSE 108 Lab (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics)
+    📱 [`Subscribe to CSE 108 Lab`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics)
 * **Exams**:
   * **Midterm Exam**: Thursday, November 19, 2026 | 5:00 PM – 6:20 PM | COB 2 Room 110  
-    📱 [`Subscribe to CSE 108 Midterm (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics)
+    📱 [`Subscribe to CSE 108 Midterm`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics)
   * **Final Exam**: Monday, December 14, 2026 | 6:30 PM – 9:30 PM | Remote Instruction  
-    📱 [`Subscribe to CSE 108 Final Exam (webcal://)`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics)
+    📱 [`Subscribe to CSE 108 Final Exam`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics)
   * **Final Exam**: Monday, December 14, 2026 | 6:30 PM – 9:30 PM | Remote Instruction
 * **Calendar Files**:
   * [`CSE 108 - Full Stack Web Development/CSE_108_01_Lecture.ics`](file:///c:/Users/isaac/Desktop/[02]%20WORK/[04]%20SCRIPTS%20&%20AGENTS/[03]%20ICS%20CALENDAR%20AGENT/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics)

@@ -34,29 +34,31 @@ Adding university course schedules and exam dates to your phone is usually painf
 You can test how live subscriptions work by tapping any link below on your iPhone, Mac, or Google Calendar:
 
 ### 📱 How to Subscribe on iPhone / iPad / Mac:
-1. Tap or copy any of the **`webcal://`** links in the table below.
-2. In **Safari**, tap **Subscribe** $\rightarrow$ set **Auto-Refresh** to **Every Hour** (or Daily).
-3. The individual class will now appear on your calendar and auto-update whenever changes occur!
+1. Tap or copy any of the **Direct Calendar Feed links** in the table below (opens in Safari or Calendar).
+2. When the iOS **Subscription Details** screen appears:
+   * ⚠️ **IMPORTANT**: Turn **OFF** the toggle for **"Remove Alerts"** (toggle to Grey). If left green, iOS will block the exam countdown alarms and class reminders!
+   * Set **Auto-Refresh** to **Every Hour** (or Daily).
+3. Tap **Add** / **Done**. The class will now appear on your calendar and auto-update in the background!
 
 ### 💻 How to Subscribe on Google Calendar (Web):
-1. Copy the **Google Calendar Feed URL** for any course below.
+1. Copy the **Feed URL** for any course below.
 2. Go to [Google Calendar](https://calendar.google.com) $\rightarrow$ next to **Other calendars**, click **`+` $\rightarrow$ From URL** $\rightarrow$ paste link and click **Add calendar**.
 
 ---
 
 ### 📅 Fall 2026 Demo Feeds
 
-| Course & Type | Day & Time | Location | 📱 Apple Calendar (`webcal://`) | 💻 Google Calendar Feed |
+| Course & Type | Day & Time | Location | 📱 Apple / iOS Calendar Link | 💻 Google Calendar Feed URL |
 | :--- | :--- | :--- | :--- | :--- |
-| **WRI 100-02**<br>*(Lecture)* | Tue & Thu<br>9:30 AM – 11:20 AM | Granite Pass 120 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics) |
-| **CSE 100-01**<br>*(Lecture)* | Tue & Thu<br>9:00 PM – 10:15 PM | COB 1 Bldg 105 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics) |
-| **CSE 100-04L**<br>*(Lab)* | Wednesday<br>10:30 AM – 1:20 PM | S&E 1 Bldg 100 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics) |
-| **CSE 100-01**<br>*(Final Exam)* | Fri, Dec 18, 2026<br>11:30 AM – 2:30 PM | COB 1 Bldg 102 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics) |
-| **CSE 108-01**<br>*(Lecture)* | Thursday<br>4:00 PM – 6:20 PM | Remote Instruction | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics) |
-| **CSE 108-05L**<br>*(Lab)* | Tuesday<br>4:30 PM – 7:20 PM | S&E 1 Bldg 100 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics) |
-| **CSE 108-01**<br>*(Midterm)* | Thu, Nov 19, 2026<br>5:00 PM – 6:20 PM | COB 2 Bldg 110 | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics) |
-| **CSE 108-01**<br>*(Final Exam)* | Mon, Dec 14, 2026<br>6:30 PM – 9:30 PM | Remote Instruction | [`Subscribe`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics) | [`Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics) |
-| **⭐ All Classes & Exams**<br>*(Full Bundle)* | Full Semester | All Locations | [`Subscribe All`](webcal://lsaacd.github.io/CalSync/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics) | [`All Feed URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics) |
+| **WRI 100-02**<br>*(Lecture)* | Tue & Thu<br>9:30 AM – 11:20 AM | Granite Pass 120 | [`Subscribe to WRI 100`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/WRI%20100%20-%20Advanced%20Writing/WRI_100_02_Lecture.ics) |
+| **CSE 100-01**<br>*(Lecture)* | Tue & Thu<br>9:00 PM – 10:15 PM | COB 1 Bldg 105 | [`Subscribe to CSE 100 Lecture`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Lecture.ics) |
+| **CSE 100-04L**<br>*(Lab)* | Wednesday<br>10:30 AM – 1:20 PM | S&E 1 Bldg 100 | [`Subscribe to CSE 100 Lab`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_04L_Lab.ics) |
+| **CSE 100-01**<br>*(Final Exam)* | Fri, Dec 18, 2026<br>11:30 AM – 2:30 PM | COB 1 Bldg 102 | [`Subscribe to CSE 100 Final Exam`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20100%20-%20Algorithm%20Design%20and%20Analysis/CSE_100_01_Final_Exam.ics) |
+| **CSE 108-01**<br>*(Lecture)* | Thursday<br>4:00 PM – 6:20 PM | Remote Instruction | [`Subscribe to CSE 108 Lecture`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Lecture.ics) |
+| **CSE 108-05L**<br>*(Lab)* | Tuesday<br>4:30 PM – 7:20 PM | S&E 1 Bldg 100 | [`Subscribe to CSE 108 Lab`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_05L_Lab.ics) |
+| **CSE 108-01**<br>*(Midterm)* | Thu, Nov 19, 2026<br>5:00 PM – 6:20 PM | COB 2 Bldg 110 | [`Subscribe to CSE 108 Midterm`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Midterm_Exam.ics) |
+| **CSE 108-01**<br>*(Final Exam)* | Mon, Dec 14, 2026<br>6:30 PM – 9:30 PM | Remote Instruction | [`Subscribe to CSE 108 Final Exam`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/CSE%20108%20-%20Full%20Stack%20Web%20Development/CSE_108_01_Final_Exam.ics) |
+| **⭐ Master Bundle**<br>*(All Combined)* | Full Semester | All Locations | [`Subscribe All Classes & Exams`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics) | [`Copy URL`](https://raw.githubusercontent.com/lsaacd/CalSync/main/2026%20Fall%20Semester/Fall_2026_All_Classes_Combined.ics) |
 
 ---
 
